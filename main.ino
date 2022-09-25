@@ -2,7 +2,7 @@
 #define RELAY_PIN 12 
 
 void misure_wet(){
-  int SensorValue = analogRead(A0); //take a sample
+  int SensorValue = analogRead(WET_PIN); //take a sample
   //Serial.print(SensorValue); Serial.print(" - ");
   digitalWrite(RELAY_PIN, LOW);
   
